@@ -50,6 +50,45 @@ Python 3, NumPy and Pandas
 $ python bikeshare.py
 
 
+### The input menu
+Hello! Let's explore some US bikeshare data!
+
+Which city do you want to explore?
+1) Chicago
+2) New York City
+3) Washington
+Please, enter a number from the list: 1
+
+Would you like to filter by day, month, both or none?
+1) month
+2) day
+3) both
+4) none
+Please, enter a number from the list: 3
+
+Select the month to filter by:
+1) January
+2) February
+3) March
+4) April
+5) May
+6) June
+Please, enter a number from the list: 2
+
+Select the day to filter by:
+1) Monday
+2) Tuesday
+3) Wednesday
+4) Thursday
+5) Friday
+6) Saturday
+7) Sunday
+Please, enter a number from the list: 4
+
+Selected city is Chicago and filtering for February and Thursday
+----------------------------------------------------------------
+
+
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 https://pandas.pydata.org/pandas-docs/stable/index.html
