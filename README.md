@@ -95,3 +95,11 @@ Selected city is Chicago and filtering for February and Thursday
 [docs.python.org](https://docs.python.org/3/)  
 [stackoverflow.com](https://stackoverflow.com)  
 [knowledge.udacity.com](https://knowledge.udacity.com)  
+
+### Known bugs
+No reported bugs
+
+### Version log
+Version | Description  
+--------|----------
+1.8     | First version posted on GitHub. All project rubrics meet.
