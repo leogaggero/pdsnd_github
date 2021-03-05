@@ -1,56 +1,57 @@
-### Project Title
-Explore US Bikeshare Data
-
-
-### Date created
-Created on feb 28, 2021
-
+# Explore US Bikeshare Data
+*Created on feb 28, 2021*
 
 ### Description
 A Python script to analyze bikeshare data from 3 mayor US cities. The user can filter the data by city, month and/or day
-using a simple numbered menu - no need for typing -
+using a simple numbered menu - no need for typing -  
 The script provides a variety of statistics about the use of shared bicycles in the cities of Chicago, New York and Washington.
 Raw data is offered to the user at the end of the analysis.
 
+## Statistics and Analysis calculated by the script
+1. Popular times of travel  
+    * Most common month  
+    * Most common day of week  
+    * Most common hour of day  
 
-## Statistics and Analisys calculated by the script
-#1 Popular times of travel
-most common month
-most common day of week
-most common hour of day
 
-#2 Popular stations and trip
-most common start station
-most common end station
-most common trip from start to end
+2. Popular stations and trip  
+    * Most common start station  
+    * Most common end station  
+    * Most common trip from start to end  
 
-#3 Trip duration
-total travel time
-average travel time
 
-#4 User info
-counts of each user type
-counts of each gender
-earliest, most recent, most common year of birth
+3. Trip duration  
+    * Total travel time  
+    * Average travel time  
 
+
+4. User info  
+    * Counts of each user type  
+    * Counts of each gender  
+    * Earliest, most recent, most common year of birth  
 
 ### Files used
-bikeshare.py
-chicago.csv (dataset, not provided here)
-new_york_city.csv (dataset, not provided here)
-washington.csv (dataset, not provided here)
+* bikeshare.py  
+* chicago.csv (dataset)  
+* new_york_city.csv (dataset)  
+* washington.csv (dataset)  
 
-Original datasets can be found in https://www.capitalbikeshare.com/system-data
+*Datasets are not provided in this repository because of the large size.  
+Original datasets can be found in [capitalbikeshare](https://www.capitalbikeshare.com/system-data)*
 
 ### Software needed
-Python 3, NumPy and Pandas
-
+Package | Version | Included in | Version  
+--------|---------|-------------|---------
+Python 3|    3.6.3|  
+NumPy   |1.12.1   |Conda        |4.6.14
+Pandas  |0.23.3   |Conda        |4.6.14
 
 ### How to run the software
-$ python bikeshare.py
+```$ python bikeshare.py```  
 
 
 ### The input menu
+```
 Hello! Let's explore some US bikeshare data!
 
 Which city do you want to explore?
@@ -87,11 +88,10 @@ Please, enter a number from the list: 4
 
 Selected city is Chicago and filtering for February and Thursday
 ----------------------------------------------------------------
-
+```
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-https://pandas.pydata.org/pandas-docs/stable/index.html
-https://docs.python.org/3/
-https://stackoverflow.com
-https://knowledge.udacity.com
+[pandas.pydata.org](https://pandas.pydata.org/pandas-docs/stable/index.html)  
+[docs.python.org](https://docs.python.org/3/)  
+[stackoverflow.com](https://stackoverflow.com)  
+[knowledge.udacity.com](https://knowledge.udacity.com)  
