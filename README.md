@@ -52,7 +52,12 @@ Pandas  |0.23.3   |Conda        |4.6.14
 
 ### The input menu
 ```
-Hello! Let's explore some US bikeshare data!
+----------------------------------------
+Explore US Bikeshare Data
+----------------------------------------
+
+Welcome! Let's dive into some data analysis!
+
 
 Which city do you want to explore?
 1) Chicago
@@ -102,4 +107,5 @@ No reported bugs
 ### Version log
 Version | Description  
 --------|----------
-1.8     | First version posted on GitHub. All project rubrics meet.
+1.8.0   | First version posted on GitHub. All project rubrics meet.
+1.8.1   | New welcome message.
