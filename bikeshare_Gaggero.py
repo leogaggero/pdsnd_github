@@ -54,7 +54,10 @@ def get_filters():
     month_options = ["January","February","March","April","May","June"]
     day_options = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
         
-    print("\nHello! Let\'s explore some US bikeshare data!\n")
+    print("-"*40)
+    print("Explore US Bikeshare Data")
+    print("-"*40)
+    print("\nWelcome! Let\'s dive into some data analysis!\n")
 
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     print("\nWhich city do you want to explore?")
